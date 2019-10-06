@@ -1,15 +1,3 @@
-.icon-left {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-.icon-right {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
-
 .season-display {
     display: grid;
     justify-content: center;
@@ -17,18 +5,30 @@
     height: 100vh;
 }
 
+.summer {
+    background-color: orange;
+}
+
 .season-display.summer i {
     color: red;
+}
+
+.winter {
+    background-color: aliceblue;
 }
 
 .season-display.winter i {
     color: blue;
 }
 
-.summer {
-    background-color: orange;
+.left-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
-.winter {
-    background-color: aliceblue;
+.right-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
